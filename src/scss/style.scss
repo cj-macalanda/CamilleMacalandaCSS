@@ -175,7 +175,7 @@ a:hover {
     vertical-align: middle;
 }
 
-// Mixins
+// Mixin 1
 @mixin footer ($width: 200px, $margin: 20px auto) {
     width: $width;
     margin:$margin;
@@ -185,9 +185,6 @@ a:hover {
 .footer-logo {
     @include footer();
 }
-
-
-
 
 // .footer-social-links {
 //     padding: 20px 0;
@@ -218,15 +215,13 @@ a span {
     display: none;
 }}}
 
-
-
 // #footer-copyright {
 //     padding: 20px 0;
 //     font-size: 12px;
 //     color: #989898;
 // }
 
-// Mixin 1
+// Mixin 2
 @mixin copy () {
     padding: 20px 0;
     font-size: 12px;
@@ -236,8 +231,6 @@ a span {
 #footer-copyright{
     @include copy ();
 }
-
-
 
 
 @media only screen and (min-width: 650px) {
